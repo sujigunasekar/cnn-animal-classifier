@@ -1,7 +1,6 @@
 #  Dog-Cat-Panda Classifier (PyTorch + CNN )
 
-This project implements a deep learning model using Convolutional Neural Networks (CNNs) to automatically classify images of dogs, cats, and pandas. Built with PyTorch, the model is trained using a variety of techniques including data augmentation, validation-based early stopping, and is evaluated using key performance metrics such as accuracy and a confusion matrix. The goal is to demonstrate an end-to-end image classification workflow for multi-class animal image data.
-
+This project focuses on building an image classification model using a Convolutional Neural Network (CNN) implemented with PyTorch. The goal is to accurately classify animal images into one of three categories: dog, cat, or panda.
 
 ##  Aim
 
@@ -9,8 +8,6 @@ This project implements a deep learning model using Convolutional Neural Network
 - To build and train a **CNN model from scratch**
 - To prevent overfitting using **early stopping**
 - To evaluate performance using **accuracy** and **confusion matrix**
-
-
 
 ##  Dataset
 
@@ -99,6 +96,7 @@ python main.py
 Ensure your dataset is downloaded to the correct path via kagglehub or placed in the appropriate train/ and test/ folders.
 
 ## Output
+<img width="492" height="747" alt="image" src="https://github.com/user-attachments/assets/b129c4c6-4fc6-42aa-9c75-9559871c69f5" />
 
 Epoch [10/50], Loss: 0.82, Train Acc: 0.74, Val Acc: 0.78
 Early stopping at epoch 15
