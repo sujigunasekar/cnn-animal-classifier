@@ -63,30 +63,31 @@ Evaluate on test set
 
 Visualize accuracy, loss, and confusion matrix
 
-Optional: Show predictions with images
+Show predictions with images
 
-🛑 Early Stopping
+##  Early Stopping
 Monitors validation accuracy
 Stops training if no improvement for patience=5 epochs
 Restores best model weights automatically
 
-## 📊 Evaluation Metrics
-### ✅ Accuracy
+##  Evaluation Metrics
+###  Accuracy
 The ratio of correctly predicted samples to the total samples:
 Accuracy = (Correct Predictions) / (Total Predictions)
-## 🧩 Confusion Matrix
+
+##  Confusion Matrix
 Shows how many images of each class were correctly/incorrectly classified.
 <img width="647" height="695" alt="image" src="https://github.com/user-attachments/assets/eb05e48b-b490-43dd-834d-ccd90f8bd707" />
 
 
 
-## 📈 Sample Plots
+##  Sample Plots
 Loss vs Epoch
 Accuracy vs Epoch
 <img width="1348" height="547" alt="image" src="https://github.com/user-attachments/assets/54f84ac9-e038-457f-ac3e-b2be5528ee53" />
 
 
-## 💻 How to Run
+##  How to Run
 1. Install Dependencies
 ```
 pip install -r requirements.txt
