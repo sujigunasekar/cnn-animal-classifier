@@ -19,11 +19,11 @@ We use the **Dog-Cat-Panda dataset** from Kaggle:
 - Classes: `['dog', 'cat', 'panda']`
 - Train/Validation split is done manually (80/20)
 
----
+
 
 ##  Model: CNN Architecture
 
-```python
+```
 Conv2d(3, 16, kernel_size=3, padding=1)
 ReLU
 MaxPool2d(2)
@@ -99,5 +99,7 @@ Ensure your dataset is downloaded to the correct path via kagglehub or placed in
 <img width="492" height="747" alt="image" src="https://github.com/user-attachments/assets/b129c4c6-4fc6-42aa-9c75-9559871c69f5" />
 
 Epoch [10/50], Loss: 0.82, Train Acc: 0.74, Val Acc: 0.78
+
 Early stopping at epoch 15
+
 Test Accuracy: 81.20%
